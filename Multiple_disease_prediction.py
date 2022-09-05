@@ -11,13 +11,13 @@ from streamlit_option_menu import option_menu
 
 # laoding the saved models
 
-diabetes_model = pickle.load(open("D:/Coding Stuff/Machine Learning/Machine Learjning Projects/Multiple Disease prediction/saved models/diabetes_model.sav",'rb'))
+diabetes_model = pickle.load(open("diabetes_model.sav",'rb'))
 
-heart_model = pickle.load(open("D:/Coding Stuff/Machine Learning/Machine Learjning Projects/Multiple Disease prediction/saved models/heart_diease_model.sav",'rb'))
+heart_model = pickle.load(open("heart_diease_model.sav",'rb'))
 
-parkinsons_model = pickle.load(open("D:/Coding Stuff/Machine Learning/Machine Learjning Projects/Multiple Disease prediction/saved models/parkinsons_model.sav",'rb'))
+parkinsons_model = pickle.load(open("parkinsons_model.sav",'rb'))
 
-breast_cancer_model = pickle.load(open("D:/Coding Stuff/Machine Learning/Machine Learjning Projects/Multiple Disease prediction/saved models/breast_cancer_model.sav",'rb'))
+breast_cancer_model = pickle.load(open("breast_cancer_model.sav",'rb'))
 
 ### sidebar for navigate
 
