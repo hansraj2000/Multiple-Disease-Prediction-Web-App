@@ -59,8 +59,8 @@ if selected == 'Diabetes Prediction':
     
     with col1:
         DiabetesPedigramFunction = st.text_input("Diabetes Pedigree Function Value")
-#     with col2:
-#         Age = st.text_input("Age of the Person")
+    with col2:
+        Age = st.text_input("Age of the Person")
     
     
     
